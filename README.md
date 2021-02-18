@@ -30,3 +30,15 @@ Model Habit
 Timer
   How to build a timer in a rails application
     - https://stackoverflow.com/questions/54798596/rails-creating-a-simple-timer-inside-a-view
+
+
+## API
+
+https://official-joke-api.appspot.com/jokes/random
+
+{
+id: 301,
+type: "general",
+setup: "Where do sheep go to get their hair cut?",
+punchline: "The baa-baa shop."
+}

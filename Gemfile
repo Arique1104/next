@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 ruby '2.5.3'
+gem 'faraday'
+gem 'figaro'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use postgresql as the database for Active Record
@@ -31,6 +33,8 @@ group :development, :test do
 end
 
 group :test do
+  gem 'webmock'
+  gem 'vcr'
   gem 'rspec-rails'
 end
 
