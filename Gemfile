@@ -36,7 +36,7 @@ group :test do
   gem 'pry'
   gem 'capybara'
   gem 'launchy'
-  gem 'shouldamatchers'
+  gem 'shoulda-matchers', '~>3.1'
   gem 'webmock'
   gem 'vcr'
   gem 'rspec-rails'
