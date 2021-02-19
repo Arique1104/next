@@ -6,11 +6,13 @@ RSpec.describe "Welcome page" do
       visit '/welcome'
       expect(page).to have_content("today's date")
     end
+
+    it "It has begin today button" do
+      visit '/welcome'
+      expect(page).to have_button("Begin Day")
+    end
+
     # it "It has todays joke" do
-    #
-    # end
-    #
-    # it "It has begin today button" do
     #
     # end
   end
