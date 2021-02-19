@@ -242,7 +242,7 @@ DEPENDENCIES
   rails (~> 6.0.3, >= 6.0.3.4)
   rspec-rails
   sass-rails (>= 6)
-  shoulda-matchers (~> 3.1)
+  shoulda-matchers
   tzinfo-data
   vcr
   web-console (>= 3.3.0)
